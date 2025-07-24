@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './Components/Header';
-import  getGreeting  from './Utils/greetings';
-import Count from './Components/Counter';
+import { getGreeting }  from './Utils/greetings';
+import Counting from './Components/Counter';
 import TabTitle from './Components/tabTitle';
 
 export default function App() {
@@ -15,9 +15,9 @@ export default function App() {
     subtitle={`Todo el hardware que necesitas, ${saludo}`}
     />
     
-    <TabTitle title={`Clicks: ${Count}`}/>
+    <TabTitle />
 
-    <Count/>
+    <Counting/>
     </>
   );
 }
