@@ -11,7 +11,7 @@ export default function App() {
   const saludo = getGreeting();
   return (
     <>
-    <ThemeProvider>
+      <ThemeProvider>
       <Header
       title="Pitech Store"
       subtitle={`Todo el hardware que necesitas, ${saludo}`}
